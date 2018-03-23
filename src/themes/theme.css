@@ -441,3 +441,14 @@ a.ui-button:active,
 	-webkit-box-shadow: -7px -7px 7px #000000;
 	box-shadow: -7px -7px 7px #000000;
 }
+
+.ui-fluid .ui-g .ui-label {
+  text-align: right;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 640px) {
+  .ui-fluid .ui-g .ui-label {
+    text-align: left;
+  }
+}
